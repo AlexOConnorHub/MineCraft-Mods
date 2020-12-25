@@ -4,14 +4,14 @@ license="All rights reserved"
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
 # The modid of the mod
-modId="examplemod" #mandatory
+modId="firstmod" #mandatory
 version="${file.jarVersion}" #mandatory
-displayName="Example Mod" #mandatory
+displayName="First Mod" #mandatory
 # The description text for the mod (multi line!) (#mandatory)
 description='''
 This is my first mod
 '''
-[[dependencies.examplemod]] #optional
+[[dependencies.firstmod]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
     versionRange="[35,)" #mandatory
@@ -19,7 +19,7 @@ This is my first mod
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 # Here's another dependency
-[[dependencies.examplemod]]
+[[dependencies.firstmod]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.4,1.17)"
